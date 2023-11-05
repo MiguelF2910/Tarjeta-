@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif; 
+}
+ul
+{
+    list-style: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   /* background: #C2906B;*/
+   background-image:url('fondo3.jpg');
+   background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana del navegador */
+   background-repeat: no-repeat; /* Evita que la imagen se repita */
+   background-attachment: fixed
+}
+.div
+{
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+  
+    height: 50 px;
+    width: 50 px;
+    align-items: center;
+    background-color: rgba(104, 96, 96, 0.2);
+    border-radius: 25px;
+}
+.p
+{
+    color: #ffffff;
+    font-family: 'Minecraft', sans-serif;       
+    font-size: 55px;                                 
+    align-items: center;
+    text-align: center;
+}
+.p1
+{
+    color: #000000;
+    font-family: 'Minecraft', sans-serif;       
+    font-size: 18px; 
+    text-align: center;                                
+
+}
+.p2
+{
+    color: #000;
+    font-family: 'Minecraft', sans-serif;       
+    font-size: 15px;                                 
+
+}
+.img{
+    
+    width: 50px;
+    }
+.icon
+{
+    image-rendering: pixelated;
+    width: 25px;
+}
+.icon2
+{
+    width: 28px;
+}
+
+
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.card .card_landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 100%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.card .card_landing h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.card .card_info {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background:url(papel2.jpg);
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+
+.card:hover .card_info {
+    left: 100%;
+}
+
+.card_info .head {
+    padding: 5px 0;
+    border-bottom: solid 1px #000000;
+}
+
+.card_info .head .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.card_info .head .description {
+    display: flex;
+    gap: 10px;
+}
+
+.card_info .head .description .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card_info .head .description .item i {
+    color: #b0a07c;
+    font-size: 15px;
+}
+
+.card_info .head .description .item p {
+    font-size: 13px;
+}
+
+.card_info .content {
+    margin-top: 5px;
+}
+
+.card_info .content .list {
+    padding: 10px 15px;
+    color: #fff;
+}
+.card_info .content .title
+{
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.card_info .content .list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card_info .action .btn {
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #000000;
+    display: block;
+    margin-top: 50px;
+}
+
